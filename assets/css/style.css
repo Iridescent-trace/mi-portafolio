@@ -1,0 +1,171 @@
+body {
+	font-family: 'Cabin', sans-serif;
+	color: #373A3C;
+}
+
+
+.rico1 {
+	color: #FFFFFF;
+	font-family: 'Lobster', cursive;
+}
+
+.rico2 {
+	color: #FFFFFF;
+	font-family: 'Lobster', cursive;
+}
+
+
+
+.lin {
+	color: white;
+}
+
+.sus {
+	color: white;
+}
+
+.new {
+	padding: 51px;
+}
+
+
+.tc p{
+	width: 72%;
+}
+
+footer {
+	padding: 51px;
+}
+
+#info p {
+	color: white;
+}
+
+.ir p,span{
+		
+		display: inline-block;
+	}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+
+
+
+	.imh {
+	max-width: 100%;
+	margin-bottom: 14rem;
+	}
+	
+	.mh {
+		padding-top: 6rem;
+		margin-top: 0rem;
+		margin-left: 12rem;
+		margin-right: 9rem;
+		
+	}
+	.carr {
+		margin-top: -10rem;
+	}
+
+	.ld {
+		display: none;
+	}
+	.ath {
+
+		text-align: left;
+	}
+	
+
+	.carousel-indicators {
+		top: 12rem;
+	}
+	.carousel-indicators li {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+
+	.mi {
+		padding: 3rem 0rem 1rem 12rem;
+	}
+	.mp {
+		padding: 0rem 9rem 1rem 0rem;
+	}
+
+	.c, .d {
+		display: inline-grid;
+		width: 48%;
+
+	}
+
+	.ic {
+		max-width: 100%;
+	}
+
+
+	.l {
+		width: 27%;
+	}
+
+	
+	
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.mh {
+		margin-top: 5px;	
+	}
+	.carr {
+		display: none;
+	}
+	.ath {
+		padding: 0 25px 0 25px;
+	}
+	.imh {
+	max-width: 100%;
+	}
+	.hsm {
+		padding: 3rem 3rem 0 3rem;
+	}
+	.l2 {
+		display: none;
+	}
+	.mi {
+		padding: 3rem 3rem 1rem 3rem;
+	}
+	.mp {
+		padding: 2rem 3rem 2rem 3rem;
+	}
+	.mls {
+		padding: 0 3rem 0 3rem;
+	}
+	.mrm {
+		margin-left: 6rem;
+		margin-right: 6rem;
+	}
+	.cmr {
+		padding: 0 2rem 0 2rem;
+	}
+	.mnm {
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+	.ir p,span{
+		
+		display: inline;
+	}
+	.ir {
+		margin-top: 1rem;
+	}
+		
+	
+}
+
+
+
+
+
+
+

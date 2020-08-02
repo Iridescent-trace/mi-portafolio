@@ -4,7 +4,6 @@ body {
 }
 
 
-
 header {
   background-image: url('../img/principal.jpg');
   background-repeat: no-repeat;
@@ -23,37 +22,10 @@ header {
 	color: white;
 }
 
-
-
-.lin {
-	color: white;
-}
-
-.sus {
-	color: white;
-}
-
-.new {
-	padding: 51px;
-}
-
-
-.tc p{
-	width: 72%;
-}
-
 footer {
 	padding: 51px;
 }
 
-#info p {
-	color: white;
-}
-
-.ir p,span{
-		
-		display: inline-block;
-	}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -63,31 +35,12 @@ footer {
 		text-align: right;
 	}
 
-	.imh {
-	max-width: 100%;
-	margin-bottom: 14rem;
-	}
-	
-	.mh {
-		padding-top: 6rem;
-		margin-top: 0rem;
-		margin-left: 12rem;
-		margin-right: 9rem;
-		
-	}
+
 	.carr {
 		margin-top: -10rem;
 	}
 
-	.ld {
-		display: none;
-	}
-	.ath {
-
-		text-align: left;
-	}
 	
-
 	.carousel-indicators {
 		top: 12rem;
 	}
@@ -132,21 +85,11 @@ footer {
 	.np{
 		text-align: left;
 	}
-	.mh {
-		margin-top: 5px;	
-	}
+	
 	.carr {
 		display: none;
 	}
-	.ath {
-		padding: 0 25px 0 25px;
-	}
-	.imh {
-	max-width: 100%;
-	}
-	.hsm {
-		padding: 3rem 3rem 0 3rem;
-	}
+	
 	.l2 {
 		display: none;
 	}
@@ -156,9 +99,7 @@ footer {
 	.mp {
 		padding: 2rem 2rem 2rem 3rem;
 	}
-	.mls {
-		padding: 0 3rem 0 3rem;
-	}
+	
 	.mrm {
 		margin-left: 6rem;
 		margin-right: 6rem;
@@ -169,13 +110,6 @@ footer {
 	.mnm {
 		margin-left: 4rem;
 		margin-right: 4rem;
-	}
-	.ir p,span{
-		
-		display: inline;
-	}
-	.ir {
-		margin-top: 1rem;
 	}
 		
 	

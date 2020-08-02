@@ -3,6 +3,8 @@
 	<head>
 		<!--codificacion del documento-->
 		<meta charset="utf-8">
+		<!--favicon-->
+		<link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico">
 		<!--para que sea responsivo-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--comentario: version 4.5.0-->
@@ -10,7 +12,7 @@
 		<!--font awesome-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<!--raleway 700 y 400 de google font-->
-		<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/style.css">
 		<title>Mi portafolio - Daniela Jerez</title>
 	</head>
@@ -18,23 +20,23 @@
 
 	<body>
 		
-		<!--barra navegacion--> <!--fixed-top o botton pegar barra arriba o abajo--> <!--completo el href con el id de la seccion a linkear -->
+		<!--barra navegacion--> <!--fixed-top o botton pegar barra arriba o abajo--> 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
 			<div class="container">
-	  			<h3 class="rico1">D</h3>
+	  			<h2 class="let1 font-weight-bold">DJ</h2>
 	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	   				<span class="navbar-toggler-icon"></span>
 	  			</button>
 	 			<div class="collapse navbar-collapse" id="navbarNav">
 	   				<ul class="navbar-nav ml-auto">
 	      				<li class="nav-item">
-	        				<a class="nav-link active" href="#acerca">Sobre mi<span class="sr-only">(current)</span></a>
+	        				<a class="nav-link active" href="#sobre">Sobre mi<span class="sr-only">(current)</span></a>
 	      				</li>
 	      				<li class="nav-item">
-	        				<a class="nav-link active" href="#trabajos">Experiencia</a>
+	        				<a class="nav-link active" href="#sobre">Experiencia<span class="sr-only">(current)</span></a>
 	      				</li>
 	      				<li class="nav-item">
-	        				<a class="nav-link active" href="#trabajos">Trabajos</a>
+	        				<a class="nav-link active" href="#ultimos">Trabajos</a>
 	      				</li>
 	      				<li class="nav-item">
 	        				<a class="nav-link active" href="#contacto">Contacto</a>
@@ -44,20 +46,50 @@
   			</div>
 		</nav>
 
-		<header class="text-left mh">
-			<img src="assets/img/principal.jpg" class="imh" alt="pizza">
-			HOLA
-			
-			
-		</header>
+		<header class="hero text-light pt-5">
+	      <div class=" np ng container pt-5 my-5">
+	        <h1 class=" display-2 font-weight-bold my-5 py-3">Daniela Jerez</h1>
+	        <button type="button" class=" btn  btn-info btn-lg" data-toggle="tooltip" data-placement="bottom" title="Presiona para descargar CV">Curriculum</button>
+	      </div>
+	    </header>
+
+	    <section class="container mt-3 pt-3 mb-3 pb-3">
+	    	<h3 class=" text-center font-weight-bold pb-5">MANEJO SOFTWARES</h3>
+	    	<div class="container pb-3 mb-3 mr-5 px-3">
+	    		
+	    		<p>Adobe Creative Suite</p>
+	    		<div class="progress mb-3">
+  					<div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+  				<br>
+				</div>
+				<p>Autodesk Inventor - AutoCAD</p>
+	    		<div class="progress mb-3">
+  					<div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+  				<br>
+				</div>
+				<p>Office Suite</p>
+	    		<div class="progress">
+  					<div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  				<br>
+				</div>
+
+	    	</div>
+	    </section>
+
+	    <div class="container">
+			<hr class="bg-dark mx-3 lg">
+		</div>
+
+
+		
 
 		
 		
 		<!--carrusel con íconos--> <!-- usa css para darle propiedades con carousel-indicators-->
-		<div class="bg-info">
-			<div class="container pb-3 carr">
+		<div class="bg-info my-5 pb-5 carr" id="proyectos">
+			<div class="container pb-3">
 				<br>
-				<h5 class="text-center">PROYECTOS ANTERIORES</h5>
+				<h3 class="text-center py-5 text-white font-weight-bold">PROYECTOS ANTERIORES</h3>
 				<div class="row">
 				
 					<div class="col-12 text-white pt-4 pb-5">
@@ -128,49 +160,51 @@
 
 
 
-		<div class="container l2">
-			<hr class="bg-dark">
-		</div>
 
+		<!-- texto sobre mi y experiencia -->
 
-
-		<!-- texto recetas -->
-
-		<div class="container mi c">
-			<h5>QUIEN SOY</h5>
-			<div>
-			    <hr class="bg-dark ml-0 mt-0 l l2">
+		<article class="pt-5" id="sobre">
+			<div class="container mi c pt-3 mt-3">
+				<div class="px-2 mx-2">
+					<h5>SOBRE MI</h5>
+					<div>
+					    <hr class="bg-dark ml-0 mt-0 l l2">
+					</div>
+					<br>
+					<p class="mr-3">Ingeniera en diseño de productos, centrada en la innovación y emprendimiento; con visión sistemática para la resolución de problemas con propuestas de valor; diseño estratégico fusionado con ingeniería, procesos y entorno comercial.</p>
+					<p class="mr-3">Mis últimas esperiencias tanto laborales como de formación van en la línea de mejorar la experiencia de usuario y usabilidad en productos o servicios digitales.</p>
+					<br>
+					
+				</div>
 			</div>
-			<br>
-			<p>etc </p>
-			<br>
-			<p>etc etc</p>
-		</div>
 
-		<div class="container mp d">
-			<h5>INFORMACIÓN</h5>
-			<div>
-			    <hr class="bg-dark ml-0 mt-0 l l2">
-			</div>
-			<br>
-			<p>etc etc</p>
-			<br>
-			<p>etc etc</p>
-			
+			<div class="container mp d pb-5 mr-3 mb-4">
+				<h5>EXPERIENCIA</h5>
+				<div>
+				    <hr class="bg-dark ml-0 mt-0 l l2">
+				</div>
+				<br>
+				<p>- Curso diseño UX/UI AIEP</p>
+				<p>- Ux Designer Consalud</p>
+				<p>- Ux Research Santander</p>
+				<p>- Ingeniería en Diseño de Productos UTFSM</p>
+				<p>- Programa de formación Balloon U</p>
+				<p>- Intercambio Ing. en Diseño Industrial y Desarrollo de Productos Politécnica de Madrid</p>
+				<p>- Pasantía Emprendimiento TEC Monterrey</p>
+				<p>- Curso MU-ALFA EDV PUC</p>
+				<p class="pb-3">- Curso Hábitat y Arquitectura EDV UCH</p>
+				
 		</div>
+		</article>
 		
 
-		<div class="container mls">
-			<hr class="bg-dark">
-		</div>
 
+		<!-- últimos trabajos -->
 
-		<!-- recetas relacionadas -->
-
-		<div class="bg-info">
+		<section id="ultimos" class="bg-info">
 			<div class="container pb-5 pt-2">
 				<br>
-				<h4 class="text-center font-weight-bold mrm">ÚLTIMOS TRABAJOS</h4>
+				<h3 class="text-center font-weight-bold mrm text-white my-5">ÚLTIMOS TRABAJOS</h3>
 				<br>
 				<div class="card-deck cmr">
 
@@ -229,7 +263,7 @@
 				</div>
 
 			</div>
-		</div>
+		</section>
 
 
 
@@ -239,38 +273,31 @@
 
 
 		
+		<!--seccion contacto. agregamos id para menu-->
 
+		<section class="container my-3" id="contacto">
+			<h3 class="display-4 text-center font-weight-bold my-4">Contáctame</h3>
+			<p class="text-center">Si tienes dudas sobre mi perfil, te gustaría que trabajáramos junto o simplemente deseas conversar sobre diseño, no dudes en contactarme respondiendo aquí abajo.</p>
 
-		<!-- seccion newaletter -->
+			<!--inicio del formulario-->
 
-		<section id="info" class="new text-center bg-danger">
-			<div class="mnm">
-				<h4 class="sus font-weight-bold">FORMULARIO</h4>
-				
-				<div class="ir">
-					<p class="">etc</p>
-					<span class="h5 text-black" style=" font-family: 'Lobster', cursive;">etc</span>
-				</div>
-				<br>
-				<a class="btn btn-outline-light text-black px-5"> Empezar </a>
-			</div>
+			<div class="typeform-widget" data-url="https://form.typeform.com/to/DDMR3Abp" style="width: 100%; height: 300px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=DDMR3Abp&utm_source=typeform.com-01EE1GNADK6KKYKG9P1YE2HEWH-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 			
-		</section>	
+		</section>
 
-
-
+		
 
 
 		<footer class="container-fluid bg-info p-4 pl-2"> 
 					<div class="container">
 						<div class="row">
 							<div>
-							<h1 class="text-white">Daniela</h1>
+							<h1 class="text-white let2">Daniela Jerez</h1>
 							</div>
 							<div class="ml-auto align-center">
-								<i href="https://www.instagram.com/designbycarlosaraya/" target="_blank" class="fab fa-instagram fa-2x p-2" style="color: #fff;"></i>
-								<i href="https://www.linkedin.com/in/carlosarayacampos/" target="_blank" class="fab fa-linkedin-in fa-2x p-2" style="color: #fff;"></i>
-								<i href="https://github.com/carlosdaraya" target="_blank" class="fab fa-github fa-2x p-2" style="color: #fff;"></i>
+								<a href="https://www.instagram.com/iridescent_trace/" class="fab fa-instagram fa-2x p-2" style="color: white;"></a>
+								<a href="https://www.linkedin.com/in/dpjerez/" class="fab fa-linkedin-in fa-2x p-2" style="color: white;"></a>
+								<a href="https://github.com/Iridescent-trace" class="fab fa-github fa-2x p-2" style="color: white;"></a>
 							</div>
 						</div>
 					</div>

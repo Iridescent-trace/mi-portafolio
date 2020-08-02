@@ -1,17 +1,26 @@
 body {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #373A3C;
 }
 
 
-.rico1 {
-	color: #FFFFFF;
-	font-family: 'Lobster', cursive;
+
+header {
+  background-image: url('../img/principal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 15rem;
 }
 
-.rico2 {
-	color: #FFFFFF;
-	font-family: 'Lobster', cursive;
+.let1 {
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+
+.let2 {
+	font-family: 'Indie Flower', cursive;
+	color: white;
 }
 
 
@@ -50,7 +59,9 @@ footer {
 @media only screen and (min-width: 600px) {
 	
 
-
+	.ng{
+		text-align: right;
+	}
 
 	.imh {
 	max-width: 100%;
@@ -108,12 +119,19 @@ footer {
 		width: 27%;
 	}
 
+	.lg {
+		display: none;
+	}
+
 	
 	
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	.np{
+		text-align: left;
+	}
 	.mh {
 		margin-top: 5px;	
 	}
@@ -136,7 +154,7 @@ footer {
 		padding: 3rem 3rem 1rem 3rem;
 	}
 	.mp {
-		padding: 2rem 3rem 2rem 3rem;
+		padding: 2rem 2rem 2rem 3rem;
 	}
 	.mls {
 		padding: 0 3rem 0 3rem;

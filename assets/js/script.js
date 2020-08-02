@@ -1,14 +1,23 @@
 
+//Animar desplazamiento lento a las secciones
+$(function(){
+	
+	$("a").click(function(event) {
+		if (this.hash !== "") {
+			event.preventDefault();
 
-//FUNCION POPOVERS BOOTSTRAP
-$(function () {
-	$('[data-toggle="popover"]').popover()
-})
+			var gato = this.hash;
 
-//VENTANAS MODALES
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
+			$('html, body').animate({
+			scrollTop: $(gato).offset().top
+			}, 1000, function(){
+			window.location.hash = gato;
+		});
+		} 
+	});
+});
+
+
 
 //TOOLTIP
 $(function () {
